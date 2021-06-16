@@ -1,6 +1,14 @@
+
+## Introduction
+This is the repo showing correct qualitative results of BAT. We provide data and codes to reproduce the visualization results, including the buggy and correct ones.
+
 ### Setup
-1. Download the saved results from `./results` and extract them in the same folder. We provide results from Sequence 05,107,19,29 and 97, which were used in our comparison video.
-2. Install dependencies
+1. Clone this repo:
+    ```bash
+    git clone https://github.com/BATanonymous/BAT_video.git
+    ```
+2. Extract the .7z files in [./results](./results). We provide results from Sequence 05,107,19,29 and 97, which were used in our previous comparison video.
+3. Install dependencies
     ```
     pip install numpy open3d==0.10.0
     ```
