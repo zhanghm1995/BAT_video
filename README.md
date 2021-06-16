@@ -1,5 +1,5 @@
 ### Setup
-1. Download the saved results [vis_results.7z](./vis_results.7z) and extract it to any folder. We provide results from Sequence 05,107,19,29 and 97, which were used in our comparison video.
+1. Download the saved results from `./results` and extract them in the same folder. We provide results from Sequence 05,107,19,29 and 97, which were used in our comparison video.
 2. Install dependencies
     ```
     pip install numpy open3d==0.10.0
