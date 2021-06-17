@@ -34,8 +34,10 @@ Then you can use mouse or keyboard to control the visualization windows. e.g. Pr
   +/-          : increase/decrease the size of points
   [/]          : Increase/decrease field of view.
   R            : Reset view point.
-
 ```
+**Note**: The point clouds are under the camera cooridnate system where the y-axis is pointing to the ground. For a better visualization, you may need to use the mouse to rotate the view properly.
+On Windows, Some of the Mouse View Controls may not be working. This is a bug of Open3D. Consider using Linux or MacOs.
+
 If everything goes well, you can get the following view when going through the sequence:
 <img src="./correct.gif" alt="correct visualization"/>
 
