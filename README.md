@@ -40,12 +40,12 @@ If everything goes well, you can get the following view when going through the s
 <img src="./correct.gif" alt="correct visualization"/>
 
 ### Reproduce the buggy visualization results
-In [vis.py](./vis.py#L59), comment the following code:
+In [vis.py](./vis.py#L59), comment the following code as:
 ```python
 #bb = o3d.io.read_triangle_mesh(obj).get_oriented_bounding_box()
 #line_set = o3d.geometry.LineSet.create_from_oriented_bounding_box(bb)
 ```
-And then uncomment the following code:
+And then uncomment the following code as:
 ```python
 # uncomment the following two lines to reproduce the buggy results.
 bb = o3d.io.read_triangle_mesh(obj).get_axis_aligned_bounding_box()
